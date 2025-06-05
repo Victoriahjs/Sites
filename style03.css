@@ -1,0 +1,187 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.rounded-icon {
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+}
+
+body {
+	background-color: white;
+	color: #000000;
+}
+
+header {
+	background-color: #f26c7c;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem 2rem;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+header h1 {
+	margin-left: 10px;
+}
+
+main {
+	justify-content: center;
+	align-items: center;
+	height: 70vh;
+}
+
+.logo {
+	font-weight: bold;
+	color: white;
+	padding: 0.3rem 0.6rem;
+	border-radius: 5px;
+	margin: 10px;
+	padding: 8px;
+}
+
+.login-button {
+	background-color: white;
+	color: #f26c7c;
+	padding: 10px 20px;
+	border-radius: 20px;
+	text-decoration: none;
+	font-weight: bold;
+	transition: 0.3s;
+}
+
+.login-button:hover {
+	background-color: #ffe3e7;
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+	gap: 1.5rem;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+}
+
+main {
+	padding: 2rem;
+	text-align: center;
+}
+
+.search-bar {
+	margin: 1rem 0;
+	padding: 0.5rem;
+	width: 200px;
+}
+
+.cards {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 1rem;
+	margin-top: 2rem;
+}
+
+.card {
+	background-color: white;
+	width: 230px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px #ccc;
+	overflow: hidden;
+	text-align: left;
+}
+
+.card img {
+	width: 110%;
+	height: 200px;
+	object-fit: cover;
+}
+
+.info {
+	padding: 1rem;
+}
+
+.stars {
+	color: gold;
+}
+
+button {
+	margin-top: 0.5rem;
+	padding: 0.5rem;
+	background-color: #f26c7c;
+	color: white;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	padding: 0.3rem 0.6rem;
+	border-radius: 5px;
+}
+
+footer {
+	background-color: #f26c7c;
+	color: white;
+	padding: 2rem 1rem;
+	margin-top: 2rem;
+	display: flex;
+}
+
+;footer h2 {
+	margin-left: 10px;
+	margin: 0;
+	font-size: 1.8rem;
+	font-weight: bold;
+}
+
+.footer .social {
+	margin-top: 1rem;
+
+}
+
+.footer .social a {
+	margin: 0 0.5rem;
+	color: white;
+	font-size: 1.5rem;
+}
+  
+.texto {
+	display: flex;
+	align-items:stretch;
+	justify-content:center;
+	width: 155%
+	
+  }
+
+.texto ul li{
+	list-style-type: none;
+}
+
+
+
+
+.header {
+	width: 20%;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.header ul li {
+	list-style: none;
+	display: inline-block;
+	margin: 0 5px;
+}
+
+.header ul li a {
+	background-color: white;
+	color: #f26c7c;
+	padding: 10px;
+	border-radius: 70%;
+}

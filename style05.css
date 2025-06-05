@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .rounded-icon {
+    border-radius: 50%; 
+    width: 40px; 
+    height: 40px;
+    }
+  
+  body {
+    background-color: white;
+    color: #000000;
+  }
+  
+  body {
+  font-family: Arial, sans-serif;
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #0a0a0a;
+}
+
+  header {
+    background-color: #f26c7c;
+    color: white;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  
+  header button {
+    background-color: white;
+    color: #d81b60;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  header h1 {
+    margin-left: 10px;
+  }
+
+ header h2 {
+    font-size: large;
+	text-transform: capitalize;
+	list-style-type: none;
+	background-color: #fb8391;
+	border-radius: 25px;
+	color: white;
+	flex-wrap: 600;
+	padding: 10px 30px;
+	transition: 03s;
+    
+  }
+
+  .login-button {
+	background-color: white;
+	color: #f26c7c;
+	padding: 10px 20px;
+	border-radius: 20px;
+	text-decoration: none;
+	font-weight: bold;
+	transition: 0.3s;
+}
+
+.login-button:hover {
+	background-color: #ffe3e7;
+}
+  
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+  }
+  
+
+  
+  footer {
+    background-color: #f26c7c;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }

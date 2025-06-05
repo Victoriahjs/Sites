@@ -1,0 +1,87 @@
+.rounded-icon {
+	border-radius: 50%; 
+	width: 40px; 
+	height: 40px;
+  }
+
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+}
+
+header {
+	background-color: #f26c7c;
+	color: white;
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	justify-content: space-between;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+header h1 {
+	margin-left: 10px;
+}
+
+img {
+	width: 600px;
+	height: auto;
+	align-items: center;
+}
+
+.servicos ul li {
+	list-style-type: none;
+	display: inline-block;
+}
+
+.servicos ul li a {
+	font-size: large;
+	text-transform: capitalize;
+	list-style-type: none;
+	background-color: #fb8391;
+	border-radius: 25px;
+	color: white;
+	flex-wrap: 600;
+	padding: 10px 20px;
+	transition: 03s;
+}
+
+.servicos ul li a {
+	border-bottom: white;
+	text-decoration: none;
+	border: none;
+	outline: none;
+}
+
+.servicos ul li a:hover {
+	background-color: #d45565;
+	border-bottom: 3px solid;
+}
+
+.login-button {
+	background-color: white;
+	color: #f26c7c;
+	padding: 10px 20px;
+	border-radius: 20px;
+	text-decoration: none;
+	font-weight: bold;
+	transition: 0.3s;
+}
+
+.login-button:hover {
+	background-color: #ffe3e7;
+}
+
+.intro {
+	padding: 40px;
+	text-align: center;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+footer {
+	text-align: center;
+	padding: 15px;
+	background-color: #f26c7c;
+	color: white;
+}
